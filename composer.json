@@ -1,0 +1,20 @@
+{
+  "name": "coinpipe/wc-near-gateway",
+  "description": "Near wc gateway",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "stevenakni",
+      "email": "stevenaknidev@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CoinPipeWCNearGateway\\": ""
+    }
+  }
+}
